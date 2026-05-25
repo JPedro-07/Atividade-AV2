@@ -9,3 +9,4 @@ router.get('/author', (req, res) => bookController.searchByAuthor(req, res));
 router.get('/:bookId', (req, res) => bookController.getBookDetails(req, res));
 
 module.exports = router;
+
