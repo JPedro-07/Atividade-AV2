@@ -11,7 +11,7 @@ class BookController {
 
       const books = await bookService.searchBooks(query, parseInt(limit));
       
-      // Adicionar URL de capa
+    
       const booksWithCovers = books.map((book) => ({
         ...book,
         cover_url: book.cover_id
@@ -37,7 +37,7 @@ class BookController {
 
       const books = await bookService.searchByAuthor(author, parseInt(limit));
       
-      // Adicionar URL de capa
+      
       const booksWithCovers = books.map((book) => ({
         ...book,
         cover_url: book.cover_id
