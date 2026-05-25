@@ -59,7 +59,6 @@ docker-compose up
 ### 3. Acesse a aplicação
 
 - **Frontend**: http://localhost:3000
-- **API Backend**: http://localhost:5000
 - **Health Check**: http://localhost:5000/api/health
 
 ## Endpoints da API
