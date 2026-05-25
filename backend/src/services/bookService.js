@@ -3,7 +3,7 @@ const axios = require('axios');
 const OPEN_LIBRARY_API = 'https://openlibrary.org';
 
 class BookService {
-  // Buscar livros por palavra-chave
+ 
   async searchBooks(query, limit = 10) {
     try {
       const response = await axios.get(`${OPEN_LIBRARY_API}/search.json`, {
@@ -27,7 +27,7 @@ class BookService {
     }
   }
 
-  // Buscar por autor
+ 
   async searchByAuthor(author, limit = 10) {
     try {
       const response = await axios.get(`${OPEN_LIBRARY_API}/search.json`, {
@@ -51,7 +51,7 @@ class BookService {
     }
   }
 
-  // Obter detalhes do livro
+ 
   async getBookDetails(bookId) {
     try {
       const path = bookId.startsWith('/') ? bookId : `/works/${bookId}`;
@@ -78,7 +78,7 @@ class BookService {
     }
   }
 
-  // Gerar URL da capa do livro
+  
   getCoverUrl(coverId, size = 'M') {
     if (!coverId) return null;
     return `https://covers.openlibrary.org/b/id/${coverId}-${size}.jpg`;
