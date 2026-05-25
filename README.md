@@ -23,12 +23,12 @@ Um aplicativo web moderno para catalogação e busca de livros utilizando **Dock
 
 ## Características do MVP
 
-✅ **Busca por Título** - Encontre livros por título
-✅ **Busca por Autor** - Encontre livros por autor
-✅ **Detalhes do Livro** - Visualize informações completas
-✅ **Capas de Livros** - Exibição de capas quando disponível
-✅ **Interface Responsiva** - Design mobile-friendly com Bootstrap
-✅ **Containerização** - Aplicação pronta para Docker
+ **Busca por Título** - Encontre livros por título
+ **Busca por Autor** - Encontre livros por autor
+ **Detalhes do Livro** - Visualize informações completas
+ **Capas de Livros** - Exibição de capas quando disponível
+ **Interface Responsiva** - Design mobile-friendly com Bootstrap
+ **Containerização** - Aplicação pronta para Docker
 
 ## Pré-requisitos
 
@@ -182,14 +182,14 @@ npm start
 
 ## Melhorias Futuras (Roadmap)
 
-- 📚 Adicionar favoritos/wishlist
-- 💾 Salvar histórico de buscas
-- 🌟 Sistema de avaliações
-- 👤 Autenticação de usuários
-- 📊 Dashboard com estatísticas
-- 🔍 Filtros avançados (ano, idioma, etc)
-- 📱 App mobile nativo
-- 🌙 Modo escuro
+-  Adicionar favoritos/wishlist
+-  Salvar histórico de buscas
+-  Sistema de avaliações
+-  Autenticação de usuários
+-  Dashboard com estatísticas
+-  Filtros avançados (ano, idioma, etc)
+-  App mobile nativo
+-  Modo escuro
 
 ## Troubleshooting
 
