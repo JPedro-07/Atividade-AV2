@@ -1,4 +1,4 @@
-# 🚀 Quick Start
+# Quick Start
 
 ## Iniciar em 30 segundos
 
@@ -72,7 +72,3 @@ docker-compose down
 - Leia [README.md](README.md) para detalhes completos
 - Leia [ARCHITECTURE.md](ARCHITECTURE.md) para entender a arquitetura
 - Leia [DEVELOPMENT.md](DEVELOPMENT.md) para guia de desenvolvimento
-
----
-
-**Enjoy! 📚**
