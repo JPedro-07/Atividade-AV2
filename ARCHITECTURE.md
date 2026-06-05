@@ -7,11 +7,11 @@
 │                     CAMADA DE APRESENTAÇÃO                     │
 │                     (Presentation Layer)                       │
 │                                                                │
-│  Frontend: React + Bootstrap + Nginx                          │
-│  Porta: 3000                                                  │
-│  ├── SearchBar Component (Busca)                             │
-│  ├── BookList Component (Lista)                              │
-│  └── BookDetail Component (Detalhes)                         │
+│  Frontend: React + Bootstrap + Nginx                           │
+│  Porta: 3000                                                   │
+│  ├── SearchBar Component (Busca)                               │
+│  ├── BookList Component (Lista)                                │
+│  └── BookDetail Component (Detalhes)                           │
 └────────────────────────────────────────────────────────────────┘
                               │
                           (HTTP/JSON)
@@ -20,25 +20,25 @@
 │                  CAMADA DE LÓGICA DE NEGÓCIO                   │
 │              (Business Logic / Application Layer)              │
 │                                                                │
-│  Backend: Express.js + Node.js                                │
-│  Porta: 5000                                                  │
-│  ├── Routes (Rotas HTTP)                                     │
-│  ├── Controllers (Lógica de negócio)                         │
-│  └── Services (Integração com API externa)                  │
+│  Backend: Express.js + Node.js                                 │
+│  Porta: 5000                                                   │
+│  ├── Routes (Rotas HTTP)                                       │
+│  ├── Controllers (Lógica de negócio)                           │
+│  └── Services (Integração com API externa)                     │
 └────────────────────────────────────────────────────────────────┘
                               │
                           (HTTP/JSON)
                               │
 ┌────────────────────────────────────────────────────────────────┐
-│                     CAMADA DE DADOS                             │
+│                     CAMADA DE DADOS                            │
 │                    (Data Access Layer)                         │
 │                                                                │
-│  Open Library API (Serviço Externo)                           │
-│  https://openlibrary.org/api                                 │
-│  - Busca de livros por título                                │
-│  - Busca de livros por autor                                 │
-│  - Detalhes do livro                                         │
-│  - Capas de livros                                           │
+│  Open Library API (Serviço Externo)                            │
+│  https://openlibrary.org/api                                   │
+│  - Busca de livros por título                                  │
+│  - Busca de livros por autor                                   │
+│  - Detalhes do livro                                           │
+│  - Capas de livros                                             │
 └────────────────────────────────────────────────────────────────┘
 ```
 
@@ -92,7 +92,7 @@ Usuário digita "Harry Potter" na interface
 ```
 Atividade-AV2/
 │
-├── 📦 Backend (Camada de Lógica)
+├── Backend (Camada de Lógica)
 │   ├── src/
 │   │   ├── server.js                 # Entry point do servidor
 │   │   ├── routes/
@@ -105,7 +105,7 @@ Atividade-AV2/
 │   ├── Dockerfile
 │   └── .env.example
 │
-├── 💻 Frontend (Camada de Apresentação)
+├── Frontend (Camada de Apresentação)
 │   ├── public/
 │   │   └── index.html                # HTML principal
 │   ├── src/
@@ -123,16 +123,16 @@ Atividade-AV2/
 │   ├── nginx.conf                   # Config nginx para produção
 │   └── .gitignore
 │
-├── 🐳 Docker
+├── Docker
 │   ├── docker-compose.yml            # Prod
 │   └── docker-compose.dev.yml        # Dev
 │
-├── 📖 Documentação
+├── Documentação
 │   ├── README.md                     # Principal
 │   ├── DEVELOPMENT.md                # Guia de desenvolvimento
 │   └── ARCHITECTURE.md               # Este arquivo
 │
-└── 📝 Configurações
+└── Configurações
     └── .gitignore
 ```
 
