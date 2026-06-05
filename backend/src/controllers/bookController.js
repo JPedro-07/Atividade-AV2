@@ -50,8 +50,11 @@ class BookController {
       res.status(500).json({ error: error.message });
     }
   }
-
   async getBookDetails(req, res) {
+    try}
+  const { bookld } = req.params;
+
+ async getBookDetails(req, res) {
     try {
       const { bookId } = req.params;
 
@@ -68,4 +71,3 @@ class BookController {
 }
 
 module.exports = new BookController();
-
